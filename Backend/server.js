@@ -5,7 +5,7 @@ const newsapi = new NewsAPI('00d1f76d27e64f0496888c9da6cbd11c');
 
 app.get('/',(req, res, next) => {
     newsapi.v2.everything({
-        q:'indore gas',
+        q:'pet ki gas',
         id:'the-times-of-india',
         language:'en',
         domain:'financial'
